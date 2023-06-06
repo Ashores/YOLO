@@ -23,7 +23,7 @@
    
    ```
 
-4. You should change the dataset dir on the config. our CrowdHuman pth is available at https://pan.baidu.com/s/1kPkd0F0Afcd1bCS_BwVWPQ?pwd=YOLO or .You can test the model with the following command
+4. You should change the dataset dir on the config. our CrowdHuman pth is available at https://pan.baidu.com/s/1kPkd0F0Afcd1bCS_BwVWPQ?pwd=YOLO or https://drive.google.com/file/d/1L2uFE8puwYjC2PU_3Y3idquayWJTwHze/view?usp=sharing.You can test the model with the following command
 
    ```bash
    python tools/test.py configs/yolov7/Crowdhuman/yolov7_w_p6_8xb16-300e_ignore_Crowdhuman.py best_crowd_human_mAP_epoch_159.pth
