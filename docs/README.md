@@ -22,7 +22,7 @@
 
    ```bash
    python tools/test.py configs/yolov7/Crowdhuman/yolov7_w_p6_8xb16-300e_ignore_Crowdhuman.py best_crowd_human_mAP_epoch_159.pth
-   ##you can got the result AP:93.51 mMr:37.04 JI:85.1
+   ##you can got the result AP:93.51 mMR:37.04 JI:85.1
    python tools/test.py configs/yolov7/Crowdhuman/yolov7_w_p6_8xb16-300e_ignore_Crowdhuman.py best_crowd_human_mAP_epoch_159.pth --tta
    ##you can got the result AP:94.1 mMR:38.14 JI:84.56
    ```
