@@ -3,14 +3,14 @@
 1. Clone YOLO_person
 
    ```bash
-   git clone [https://github.com/open-mmlab/mmyolo.git](https://github.com/Ashores/YOLO_person)
+   git clone (https://github.com/Ashores/YOLO_person)
    cd YOLO_person
    ```
 
 2. Install the building dependencies of documentation
 
    ```bash
-   create an torch environment
+   ##create an torch environment
    pip install torch==1.13.0+cu116 torchvision==0.14.0+cu116 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu116
    pip install -r requirements/docs.txt
    cd mmyolo/models/ops_dcnv3/
