@@ -2,12 +2,13 @@
 
 1. Clone YOLO_person
 
+
    ```bash
    git clone (https://github.com/Ashores/YOLO_person)
    cd YOLO_person
    ```
-
-2. Install the building dependencies of documentation
+2. dataset prepare can follow mmyolo.
+3. Install the building dependencies of documentation
 
    ```bash
    ##create an torch environment
@@ -18,7 +19,7 @@
    
    ```
 
-3. You should change the dataset dir on the config. our CrowdHuman pth is available at https://pan.baidu.com/s/1kPkd0F0Afcd1bCS_BwVWPQ?pwd=YOLO .You can test the model with the following command
+4. You should change the dataset dir on the config. our CrowdHuman pth is available at https://pan.baidu.com/s/1kPkd0F0Afcd1bCS_BwVWPQ?pwd=YOLO .You can test the model with the following command
 
    ```bash
    python tools/test.py configs/yolov7/Crowdhuman/yolov7_w_p6_8xb16-300e_ignore_Crowdhuman.py best_crowd_human_mAP_epoch_159.pth
