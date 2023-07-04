@@ -4,8 +4,8 @@
 
 
    ```bash
-   git clone (https://github.com/Ashores/YOLO_person)
-   cd YOLO_person
+   git clone (https://github.com/Ashores/YOLO)
+   cd YOLO
    ```
 2. dataset prepare can follow mmyolo.
 3. Install the building dependencies of documentation
