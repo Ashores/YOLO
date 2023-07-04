@@ -1,6 +1,6 @@
 ## Build Documentation
 
-1. Clone YOLO_person
+1. Clone YOLO
 
 
    ```bash
